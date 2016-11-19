@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yuyu.masjawa.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/title_textView"
+        android:paddingTop="20dp"
+        android:text="MAS JAWA T-NETRA"
+        android:textSize="13pt"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_textView"
+        android:layout_below="@+id/title_textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/oke"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="tekan layar untuk mengambil gambar / Touch the screen to take a picture"
+        android:textSize="12pt"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help_btnView"
+        android:text="Bantuan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight ="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pengaturan"
+    android:layout_alignParentBottom="true"
+    />
+
+
+</RelativeLayout>
